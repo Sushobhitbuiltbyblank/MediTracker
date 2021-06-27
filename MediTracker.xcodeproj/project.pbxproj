@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		761BDEC926886C9A0026F76A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDEC826886C9A0026F76A /* AppDelegate.swift */; };
 		761BDECB26886C9A0026F76A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDECA26886C9A0026F76A /* SceneDelegate.swift */; };
-		761BDECD26886C9A0026F76A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDECC26886C9A0026F76A /* ViewController.swift */; };
-		761BDED026886C9A0026F76A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761BDECE26886C9A0026F76A /* Main.storyboard */; };
+		761BDECD26886C9A0026F76A /* TodayRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDECC26886C9A0026F76A /* TodayRecordVC.swift */; };
+		761BDED026886C9A0026F76A /* MediTrack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761BDECE26886C9A0026F76A /* MediTrack.storyboard */; };
 		761BDED326886C9A0026F76A /* MediTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 761BDED126886C9A0026F76A /* MediTracker.xcdatamodeld */; };
 		761BDED526886C9C0026F76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761BDED426886C9C0026F76A /* Assets.xcassets */; };
 		761BDED826886C9C0026F76A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761BDED626886C9C0026F76A /* LaunchScreen.storyboard */; };
 		761BDEE326886C9C0026F76A /* MediTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDEE226886C9C0026F76A /* MediTrackerTests.swift */; };
 		761BDEEE26886C9C0026F76A /* MediTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDEED26886C9C0026F76A /* MediTrackerUITests.swift */; };
+		761BDF002688B9AA0026F76A /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDEFF2688B9AA0026F76A /* HistoryVC.swift */; };
+		761BDF022688BAE90026F76A /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF012688BAE90026F76A /* HistoryViewModel.swift */; };
+		761BDF082688CA920026F76A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF052688CA920026F76A /* AppCoordinator.swift */; };
+		761BDF092688CA920026F76A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF072688CA920026F76A /* Coordinator.swift */; };
+		761BDF0F2688D2F50026F76A /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF0D2688D2F50026F76A /* BaseVC.swift */; };
+		761BDF102688D2F50026F76A /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF0E2688D2F50026F76A /* BaseCoordinator.swift */; };
+		761BDF132688D5410026F76A /* TodayRecordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF122688D5410026F76A /* TodayRecordCoordinator.swift */; };
+		761BDF172688D6AA0026F76A /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF162688D6AA0026F76A /* Storyboarded.swift */; };
+		761BDF1A2688D7330026F76A /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF192688D7330026F76A /* UIStoryboard+Extension.swift */; };
+		761BDF1C2688D8930026F76A /* TodayRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF1B2688D8930026F76A /* TodayRecordViewModel.swift */; };
+		761BDF1E2688D9350026F76A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BDF1D2688D9350026F76A /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,8 @@
 		761BDEC526886C9A0026F76A /* MediTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		761BDEC826886C9A0026F76A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		761BDECA26886C9A0026F76A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		761BDECC26886C9A0026F76A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		761BDECF26886C9A0026F76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		761BDECC26886C9A0026F76A /* TodayRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayRecordVC.swift; sourceTree = "<group>"; };
+		761BDECF26886C9A0026F76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MediTrack.storyboard; sourceTree = "<group>"; };
 		761BDED226886C9A0026F76A /* MediTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediTracker.xcdatamodel; sourceTree = "<group>"; };
 		761BDED426886C9C0026F76A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		761BDED726886C9C0026F76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		761BDEE926886C9C0026F76A /* MediTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		761BDEED26886C9C0026F76A /* MediTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediTrackerUITests.swift; sourceTree = "<group>"; };
 		761BDEEF26886C9C0026F76A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761BDEFF2688B9AA0026F76A /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		761BDF012688BAE90026F76A /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		761BDF052688CA920026F76A /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		761BDF072688CA920026F76A /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		761BDF0D2688D2F50026F76A /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		761BDF0E2688D2F50026F76A /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		761BDF122688D5410026F76A /* TodayRecordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayRecordCoordinator.swift; sourceTree = "<group>"; };
+		761BDF162688D6AA0026F76A /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		761BDF192688D7330026F76A /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		761BDF1B2688D8930026F76A /* TodayRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayRecordViewModel.swift; sourceTree = "<group>"; };
+		761BDF1D2688D9350026F76A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,9 @@
 		761BDEBC26886C9A0026F76A = {
 			isa = PBXGroup;
 			children = (
+				761BDF142688D68E0026F76A /* Utilities */,
+				761BDF112688D3420026F76A /* AppConfig */,
+				761BDF032688CA780026F76A /* Navigation */,
 				761BDEC726886C9A0026F76A /* MediTracker */,
 				761BDEE126886C9C0026F76A /* MediTrackerTests */,
 				761BDEEC26886C9C0026F76A /* MediTrackerUITests */,
@@ -101,10 +126,7 @@
 		761BDEC726886C9A0026F76A /* MediTracker */ = {
 			isa = PBXGroup;
 			children = (
-				761BDEC826886C9A0026F76A /* AppDelegate.swift */,
-				761BDECA26886C9A0026F76A /* SceneDelegate.swift */,
-				761BDECC26886C9A0026F76A /* ViewController.swift */,
-				761BDECE26886C9A0026F76A /* Main.storyboard */,
+				761BDF0A2688D2BE0026F76A /* Feature */,
 				761BDED426886C9C0026F76A /* Assets.xcassets */,
 				761BDED626886C9C0026F76A /* LaunchScreen.storyboard */,
 				761BDED926886C9C0026F76A /* Info.plist */,
@@ -129,6 +151,121 @@
 				761BDEEF26886C9C0026F76A /* Info.plist */,
 			);
 			path = MediTrackerUITests;
+			sourceTree = "<group>";
+		};
+		761BDEFB26886D320026F76A /* MediTrack */ = {
+			isa = PBXGroup;
+			children = (
+				761BDEFE26886DC10026F76A /* MediTrack History  */,
+				761BDEFC26886D780026F76A /* Storyboards */,
+				761BDEFD26886D990026F76A /* MediTrack Today */,
+			);
+			path = MediTrack;
+			sourceTree = "<group>";
+		};
+		761BDEFC26886D780026F76A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				761BDECE26886C9A0026F76A /* MediTrack.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		761BDEFD26886D990026F76A /* MediTrack Today */ = {
+			isa = PBXGroup;
+			children = (
+				761BDECC26886C9A0026F76A /* TodayRecordVC.swift */,
+				761BDF122688D5410026F76A /* TodayRecordCoordinator.swift */,
+				761BDF1B2688D8930026F76A /* TodayRecordViewModel.swift */,
+			);
+			path = "MediTrack Today";
+			sourceTree = "<group>";
+		};
+		761BDEFE26886DC10026F76A /* MediTrack History  */ = {
+			isa = PBXGroup;
+			children = (
+				761BDEFF2688B9AA0026F76A /* HistoryVC.swift */,
+				761BDF012688BAE90026F76A /* HistoryViewModel.swift */,
+			);
+			path = "MediTrack History ";
+			sourceTree = "<group>";
+		};
+		761BDF032688CA780026F76A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF042688CA920026F76A /* Coordinator */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		761BDF042688CA920026F76A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF052688CA920026F76A /* AppCoordinator.swift */,
+				761BDF062688CA920026F76A /* Protocol */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		761BDF062688CA920026F76A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF072688CA920026F76A /* Coordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		761BDF0A2688D2BE0026F76A /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF0C2688D2F50026F76A /* Base */,
+				761BDEFB26886D320026F76A /* MediTrack */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		761BDF0C2688D2F50026F76A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF0D2688D2F50026F76A /* BaseVC.swift */,
+				761BDF0E2688D2F50026F76A /* BaseCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		761BDF112688D3420026F76A /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				761BDEC826886C9A0026F76A /* AppDelegate.swift */,
+				761BDECA26886C9A0026F76A /* SceneDelegate.swift */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		761BDF142688D68E0026F76A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF182688D71A0026F76A /* Extension */,
+				761BDF152688D6AA0026F76A /* Protocols */,
+				761BDF1D2688D9350026F76A /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		761BDF152688D6AA0026F76A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF162688D6AA0026F76A /* Storyboarded.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		761BDF182688D71A0026F76A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				761BDF192688D7330026F76A /* UIStoryboard+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +373,7 @@
 			files = (
 				761BDED826886C9C0026F76A /* LaunchScreen.storyboard in Resources */,
 				761BDED526886C9C0026F76A /* Assets.xcassets in Resources */,
-				761BDED026886C9A0026F76A /* Main.storyboard in Resources */,
+				761BDED026886C9A0026F76A /* MediTrack.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +398,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761BDECD26886C9A0026F76A /* ViewController.swift in Sources */,
+				761BDF092688CA920026F76A /* Coordinator.swift in Sources */,
+				761BDECD26886C9A0026F76A /* TodayRecordVC.swift in Sources */,
+				761BDF002688B9AA0026F76A /* HistoryVC.swift in Sources */,
 				761BDEC926886C9A0026F76A /* AppDelegate.swift in Sources */,
+				761BDF0F2688D2F50026F76A /* BaseVC.swift in Sources */,
+				761BDF1E2688D9350026F76A /* Utility.swift in Sources */,
+				761BDF1A2688D7330026F76A /* UIStoryboard+Extension.swift in Sources */,
+				761BDF102688D2F50026F76A /* BaseCoordinator.swift in Sources */,
+				761BDF1C2688D8930026F76A /* TodayRecordViewModel.swift in Sources */,
+				761BDF022688BAE90026F76A /* HistoryViewModel.swift in Sources */,
 				761BDECB26886C9A0026F76A /* SceneDelegate.swift in Sources */,
 				761BDED326886C9A0026F76A /* MediTracker.xcdatamodeld in Sources */,
+				761BDF082688CA920026F76A /* AppCoordinator.swift in Sources */,
+				761BDF132688D5410026F76A /* TodayRecordCoordinator.swift in Sources */,
+				761BDF172688D6AA0026F76A /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +448,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		761BDECE26886C9A0026F76A /* Main.storyboard */ = {
+		761BDECE26886C9A0026F76A /* MediTrack.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				761BDECF26886C9A0026F76A /* Base */,
 			);
-			name = Main.storyboard;
+			name = MediTrack.storyboard;
 			sourceTree = "<group>";
 		};
 		761BDED626886C9C0026F76A /* LaunchScreen.storyboard */ = {
