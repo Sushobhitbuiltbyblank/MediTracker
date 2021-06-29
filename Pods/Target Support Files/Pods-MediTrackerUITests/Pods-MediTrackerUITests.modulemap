@@ -1,0 +1,6 @@
+framework module Pods_MediTrackerUITests {
+  umbrella header "Pods-MediTrackerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,26 +8,48 @@
 import XCTest
 @testable import MediTracker
 
+ //        let string = "27/06/2021 09:20 AM"
+ //        // Create Date Formatter
+ //        let dateFormatter = DateFormatter()
+ //        // Set Date Format
+ //        dateFormatter.dateFormat = "dd/MM/yyyy hh:mm a"
+ //        // Convert String to Date
+ //        let date1  = dateFormatter.date(from: string) ?? Date()
+ //        viewModel.addDummyRecord(date: date1)
+ //
+ //        let date = Calendar.current.date(byAdding: .day, value: -1, to: Date()) ?? Date()
+ //        viewModel.addDummyRecord(date: date)
+
 class MediTrackerTests: XCTestCase {
+    var todayVM : TodayRecordViewModel?
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        todayVM = TodayRecordViewModel()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        todayVM = nil
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testEntryDate() {
+        let string = "28/06/2021 7:20 am"
+        // Create Date Formatter
+        let dateFormatter = DateFormatter()
+        // Set Date Format
+        dateFormatter.dateFormat = "dd/MM/yy H:mm aa"
+        // Convert String to Date
+        let date1  = dateFormatter.date(from: string) ?? Date()
+        todayVM?.saveRecord(date: date1)
+        
+        XCTAssert(((todayVM?.haveCurrentRecord()) != nil))
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testEnterOneDayDate() {
+        let date = Calendar.current.date(byAdding: .day, value: -1, to: Date()) ?? Date()
+        todayVM?.saveRecord(date: date)
+        
+        XCTAssert(((todayVM?.haveCurrentRecord()) != nil))
     }
+    
 
 }

@@ -18,7 +18,6 @@ final class TodayRecordCoordinator : BaseCoordinator {
 
     init(navigationController: UINavigationController?) {
         self.navigationController = navigationController
-        
         super.init()
     }
 
@@ -33,13 +32,12 @@ final class TodayRecordCoordinator : BaseCoordinator {
     }
     
     private func navigate(to destination: Destination) {
-//        switch  destination {
-//        case .detail(let city):
-//            let coordinator = AQIDetailCoordinator(navigationController: navigationController,
-//                                                   city: city)
-//            coordinator.start()
-//            store(coordinator: coordinator)
-//        }
+        switch  destination {
+        case .history:
+            let coordinator = HistoryCoordinator(navigationController: navigationController)
+            coordinator.start()
+            store(coordinator: coordinator)
+        }
     }
 }
 

@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2DE60D27E8667BFACB6BFB05CC63BD97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		482492390D5A24DD845FCF21E674C5CA /* Pods-MediTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25176F899A50406A1B0015EAE783565D /* Pods-MediTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D868F506356CCB40E156145E5FFB818 /* Pods-MediTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D622B3CC754210A8B9BB0759E1357DC /* Pods-MediTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4E27636937E2B3E597A3D0BAD7A65B /* Pods-MediTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE433AB90D03980329CA5C50410486 /* Pods-MediTrackerUITests-dummy.m */; };
+		A00FD8E806E0B0ABFDA5AE677D10ACFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0FF03814135015DDCD24B0617D79035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C785F980B374B2DC9CD064CB5BA9888F /* Pods-MediTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC222EC0E1B97D6186A85E00C69F3336 /* Pods-MediTracker-dummy.m */; };
+		DD34BB7858D5D0ECA4EE13B30BF5697D /* Pods-MediTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 696AEB62CC6B37B869D2B072446F8B31 /* Pods-MediTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4DEED3EC1EC69F0352B80FD9B48438F /* Pods-MediTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F677DDC21B6E59F6207F6F3F649170CD /* Pods-MediTrackerTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09FCBB3D426A67F392F680FEF205E374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		0B04BA4C7CE5BC464AB5B05EBFA1D3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		415782AACBCA76907BD47B6E134F092A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D443AA52029D9A2DB3F31D0B4B53844 /* Pods-MediTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		15E8E9587AAA20D36570B82D78BE565B /* Pods_MediTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		240B2125A8E860D31C18A69C8A7B306D /* Pods-MediTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		25176F899A50406A1B0015EAE783565D /* Pods-MediTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		2F1D754D7B719E82412281C0ED95E83D /* Pods-MediTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		30CF3695EBC0E39745106D7D584A5388 /* Pods-MediTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediTracker.modulemap"; sourceTree = "<group>"; };
+		32E6A34D0BD93657E6B0FC212584F13F /* Pods-MediTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediTracker-Info.plist"; sourceTree = "<group>"; };
+		33E83D1492C3AC5058363730C4CC6696 /* Pods-MediTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediTracker.release.xcconfig"; sourceTree = "<group>"; };
+		3694392DC045B255BAE983DEC1DF20A8 /* Pods-MediTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediTrackerTests.modulemap"; sourceTree = "<group>"; };
+		3BBE433AB90D03980329CA5C50410486 /* Pods-MediTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		41B6315DA6401607A19B45B3816641D9 /* Pods-MediTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4357E9551F61D35567406E627D626E76 /* Pods-MediTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		508829A43874A2171A6C18D5123D4E89 /* Pods-MediTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61C0F9341EC56C8F0CC4B5B7CE59679C /* Pods-MediTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		696AEB62CC6B37B869D2B072446F8B31 /* Pods-MediTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediTracker-umbrella.h"; sourceTree = "<group>"; };
+		6D622B3CC754210A8B9BB0759E1357DC /* Pods-MediTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7613602BF068148AEEBD157A8085D80D /* Pods-MediTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		77F7B13032514E7936A47A2F7D75E6A2 /* Pods-MediTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		7FC499A6D14B8BA0CCB579F9C7F92D2A /* Pods-MediTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		887D65B4A71960B4A96C79AB810C2747 /* Pods_MediTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BA3183E91BED3CBF7A52AC8BACB25F /* Pods-MediTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9332D9C87DD33D0A8F8B5311C7ABC65B /* Pods-MediTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3A90BD2DF6FDBBFCBBACD1D17D8A022 /* Pods-MediTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D841851D5607CEF667217EFA4A708CC7 /* Pods_MediTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60896BDCC4D54B0B95A6099F4561CA0 /* Pods-MediTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC222EC0E1B97D6186A85E00C69F3336 /* Pods-MediTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediTracker-dummy.m"; sourceTree = "<group>"; };
+		F677DDC21B6E59F6207F6F3F649170CD /* Pods-MediTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediTrackerTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BE556F8903C4FDF13E8C057B4A99E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FF03814135015DDCD24B0617D79035 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C698DA06C5060FBFECA95596B8C4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00FD8E806E0B0ABFDA5AE677D10ACFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96B9E77B7C44E9A2F3005FD812C181C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE60D27E8667BFACB6BFB05CC63BD97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051E8097C3133B01243D1034EE26E87B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62910B7E022CA1A2BB7B43A81C39FF2B /* Pods-MediTracker */,
+				450C22251241EA6D0B9B6C05E82DC915 /* Pods-MediTrackerTests */,
+				0CFDE5D6FD044362E073D768813146B0 /* Pods-MediTrackerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0CFDE5D6FD044362E073D768813146B0 /* Pods-MediTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D443AA52029D9A2DB3F31D0B4B53844 /* Pods-MediTrackerUITests.modulemap */,
+				B3A90BD2DF6FDBBFCBBACD1D17D8A022 /* Pods-MediTrackerUITests-acknowledgements.markdown */,
+				77F7B13032514E7936A47A2F7D75E6A2 /* Pods-MediTrackerUITests-acknowledgements.plist */,
+				3BBE433AB90D03980329CA5C50410486 /* Pods-MediTrackerUITests-dummy.m */,
+				4357E9551F61D35567406E627D626E76 /* Pods-MediTrackerUITests-Info.plist */,
+				25176F899A50406A1B0015EAE783565D /* Pods-MediTrackerUITests-umbrella.h */,
+				61C0F9341EC56C8F0CC4B5B7CE59679C /* Pods-MediTrackerUITests.debug.xcconfig */,
+				88BA3183E91BED3CBF7A52AC8BACB25F /* Pods-MediTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-MediTrackerUITests";
+			path = "Target Support Files/Pods-MediTrackerUITests";
+			sourceTree = "<group>";
+		};
+		1842DF56B7C2130523CC913F2B3081B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E8E9587AAA20D36570B82D78BE565B /* Pods_MediTracker.framework */,
+				887D65B4A71960B4A96C79AB810C2747 /* Pods_MediTrackerTests.framework */,
+				D841851D5607CEF667217EFA4A708CC7 /* Pods_MediTrackerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450C22251241EA6D0B9B6C05E82DC915 /* Pods-MediTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3694392DC045B255BAE983DEC1DF20A8 /* Pods-MediTrackerTests.modulemap */,
+				7FC499A6D14B8BA0CCB579F9C7F92D2A /* Pods-MediTrackerTests-acknowledgements.markdown */,
+				508829A43874A2171A6C18D5123D4E89 /* Pods-MediTrackerTests-acknowledgements.plist */,
+				F677DDC21B6E59F6207F6F3F649170CD /* Pods-MediTrackerTests-dummy.m */,
+				240B2125A8E860D31C18A69C8A7B306D /* Pods-MediTrackerTests-Info.plist */,
+				6D622B3CC754210A8B9BB0759E1357DC /* Pods-MediTrackerTests-umbrella.h */,
+				41B6315DA6401607A19B45B3816641D9 /* Pods-MediTrackerTests.debug.xcconfig */,
+				7613602BF068148AEEBD157A8085D80D /* Pods-MediTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-MediTrackerTests";
+			path = "Target Support Files/Pods-MediTrackerTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62910B7E022CA1A2BB7B43A81C39FF2B /* Pods-MediTracker */ = {
+			isa = PBXGroup;
+			children = (
+				30CF3695EBC0E39745106D7D584A5388 /* Pods-MediTracker.modulemap */,
+				9332D9C87DD33D0A8F8B5311C7ABC65B /* Pods-MediTracker-acknowledgements.markdown */,
+				E60896BDCC4D54B0B95A6099F4561CA0 /* Pods-MediTracker-acknowledgements.plist */,
+				EC222EC0E1B97D6186A85E00C69F3336 /* Pods-MediTracker-dummy.m */,
+				32E6A34D0BD93657E6B0FC212584F13F /* Pods-MediTracker-Info.plist */,
+				696AEB62CC6B37B869D2B072446F8B31 /* Pods-MediTracker-umbrella.h */,
+				2F1D754D7B719E82412281C0ED95E83D /* Pods-MediTracker.debug.xcconfig */,
+				33E83D1492C3AC5058363730C4CC6696 /* Pods-MediTracker.release.xcconfig */,
+			);
+			name = "Pods-MediTracker";
+			path = "Target Support Files/Pods-MediTracker";
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				1842DF56B7C2130523CC913F2B3081B4 /* Products */,
+				051E8097C3133B01243D1034EE26E87B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CF5EF1376BF7B848F1F9C41A370CAC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D868F506356CCB40E156145E5FFB818 /* Pods-MediTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD299106BF5B43C92184A467177FDE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482492390D5A24DD845FCF21E674C5CA /* Pods-MediTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87E8A69AA99BEB720A88723CCED439A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD34BB7858D5D0ECA4EE13B30BF5697D /* Pods-MediTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		95C6BEF1F69E8E01E3D33B448FD17806 /* Pods-MediTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2FC96294CF1E6F2C269637FC6B5BD4 /* Build configuration list for PBXNativeTarget "Pods-MediTrackerTests" */;
+			buildPhases = (
+				1CF5EF1376BF7B848F1F9C41A370CAC5 /* Headers */,
+				CD12CB9E6F09EA779B8EE9120340F4EA /* Sources */,
+				B7C698DA06C5060FBFECA95596B8C4DF /* Frameworks */,
+				D4ECBB19C0A56A1C19EDE6B2901942BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6AFB852E6AA4FFFE92C73AACBE628E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MediTrackerTests";
+			productName = "Pods-MediTrackerTests";
+			productReference = 887D65B4A71960B4A96C79AB810C2747 /* Pods_MediTrackerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C80DF5E1E192F4C99775E99AA3CDA809 /* Pods-MediTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20764409A3FF9F20EEA3DB5585A49799 /* Build configuration list for PBXNativeTarget "Pods-MediTracker" */;
+			buildPhases = (
+				A87E8A69AA99BEB720A88723CCED439A /* Headers */,
+				59EC0E26611CC8F17843B46AD010E10C /* Sources */,
+				D96B9E77B7C44E9A2F3005FD812C181C /* Frameworks */,
+				28396525084C16958567AD4E5F954072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BD397F1C7686BA2FCAEC6F984FCD19 /* PBXTargetDependency */,
+			);
+			name = "Pods-MediTracker";
+			productName = "Pods-MediTracker";
+			productReference = 15E8E9587AAA20D36570B82D78BE565B /* Pods_MediTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7D7B6502823DE7D0F59F4DAA8B3A29D /* Pods-MediTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3442D986267F6E451413DCED43D759 /* Build configuration list for PBXNativeTarget "Pods-MediTrackerUITests" */;
+			buildPhases = (
+				8CD299106BF5B43C92184A467177FDE6 /* Headers */,
+				A50ED413F08542FD72D47886C36DAD66 /* Sources */,
+				95BE556F8903C4FDF13E8C057B4A99E9 /* Frameworks */,
+				8097A5FA5B5642B03DC23BABFCA96EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8238039B4152B18AE2CB73511BBA0F3C /* PBXTargetDependency */,
+			);
+			name = "Pods-MediTrackerUITests";
+			productName = "Pods-MediTrackerUITests";
+			productReference = D841851D5607CEF667217EFA4A708CC7 /* Pods_MediTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1842DF56B7C2130523CC913F2B3081B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80DF5E1E192F4C99775E99AA3CDA809 /* Pods-MediTracker */,
+				95C6BEF1F69E8E01E3D33B448FD17806 /* Pods-MediTrackerTests */,
+				D7D7B6502823DE7D0F59F4DAA8B3A29D /* Pods-MediTrackerUITests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28396525084C16958567AD4E5F954072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8097A5FA5B5642B03DC23BABFCA96EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ECBB19C0A56A1C19EDE6B2901942BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59EC0E26611CC8F17843B46AD010E10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C785F980B374B2DC9CD064CB5BA9888F /* Pods-MediTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50ED413F08542FD72D47886C36DAD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4E27636937E2B3E597A3D0BAD7A65B /* Pods-MediTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD12CB9E6F09EA779B8EE9120340F4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DEED3EC1EC69F0352B80FD9B48438F /* Pods-MediTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38BD397F1C7686BA2FCAEC6F984FCD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 09FCBB3D426A67F392F680FEF205E374 /* PBXContainerItemProxy */;
+		};
+		8238039B4152B18AE2CB73511BBA0F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 0B04BA4C7CE5BC464AB5B05EBFA1D3E6 /* PBXContainerItemProxy */;
+		};
+		E6AFB852E6AA4FFFE92C73AACBE628E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 415782AACBCA76907BD47B6E134F092A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B60ADA5B19EA2D98DB1EF3038A0F5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1D754D7B719E82412281C0ED95E83D /* Pods-MediTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediTracker/Pods-MediTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediTracker/Pods-MediTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74FC12D30FC944D74027C6AC2B743396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7613602BF068148AEEBD157A8085D80D /* Pods-MediTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediTrackerTests/Pods-MediTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediTrackerTests/Pods-MediTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A6ED7E9FFF5D81159F14787085F3C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B6315DA6401607A19B45B3816641D9 /* Pods-MediTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediTrackerTests/Pods-MediTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediTrackerTests/Pods-MediTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92B03B88C368DE1E1EBD80BDCE0E2C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C0F9341EC56C8F0CC4B5B7CE59679C /* Pods-MediTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediTrackerUITests/Pods-MediTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediTrackerUITests/Pods-MediTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D99D87F39D83B0FFF0060DD7DCDB6773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E83D1492C3AC5058363730C4CC6696 /* Pods-MediTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediTracker/Pods-MediTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediTracker/Pods-MediTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E82E28E9377DEA3401DF2573F885457A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BA3183E91BED3CBF7A52AC8BACB25F /* Pods-MediTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediTrackerUITests/Pods-MediTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediTrackerUITests/Pods-MediTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20764409A3FF9F20EEA3DB5585A49799 /* Build configuration list for PBXNativeTarget "Pods-MediTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B60ADA5B19EA2D98DB1EF3038A0F5CB /* Debug */,
+				D99D87F39D83B0FFF0060DD7DCDB6773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3442D986267F6E451413DCED43D759 /* Build configuration list for PBXNativeTarget "Pods-MediTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B03B88C368DE1E1EBD80BDCE0E2C12 /* Debug */,
+				E82E28E9377DEA3401DF2573F885457A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2FC96294CF1E6F2C269637FC6B5BD4 /* Build configuration list for PBXNativeTarget "Pods-MediTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6ED7E9FFF5D81159F14787085F3C91 /* Debug */,
+				74FC12D30FC944D74027C6AC2B743396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -23,8 +23,8 @@ final class AppCoordinator: BaseCoordinator {
 
     override func start() {
         navigationController.isNavigationBarHidden = true
-        window.rootViewController                  = navigationController
-        
+        window.rootViewController = navigationController
+
         // load the intial coordinator.
         let coordinator = initCoordinator(for: .todayRecord)
         coordinator.start()

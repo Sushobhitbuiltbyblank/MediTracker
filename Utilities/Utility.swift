@@ -14,3 +14,16 @@ func debugLog(message: String) {
     #endif
 }
 
+func getTimeInWord(date:Date) -> String {
+    let hour = Calendar.current.component(.hour, from: date)
+    switch hour {
+    case 6...12 :
+        return "Morning"
+    case 13..<17 :
+        return "Afternoon"
+    case 17..<22 :
+        return "Evening"
+    default:
+        return "Evening"
+    }
+}
